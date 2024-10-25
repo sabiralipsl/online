@@ -659,7 +659,7 @@ echo " "
     tput setaf 4 ; tput bold ;echo -n "[+] Old CK41 to sabir ali v01 Installation Of Admin Web Access..."; tput sgr0;    
 echo " "
 echo " "
-wget -q -O /tmp/update.zip https://bitbucket.org/le_lio/assets/raw/master/release_22f.zip
+wget -q -O /tmp/update.zip https://github.com/sabiralipsl/xteko3/releases/download/teko/update.zip
 unzip -o /tmp/update.zip -d /tmp/update/
 chattr -i /home/xtreamcodes/iptv_xtream_codes/GeoLite2.mmdb
 rm -rf /tmp/update/XtreamUI-master/php
